@@ -22,4 +22,3 @@ function init(onKeyDownHandler(e)) {
   index = 0;
         }
   }
-
