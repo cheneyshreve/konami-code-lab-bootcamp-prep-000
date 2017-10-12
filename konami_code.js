@@ -3,13 +3,14 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let index = 0;
 
 const body = document.getElementsByTagName("body");
-body.addEventListener('keydown', init(e));
+body.addEventListener('keydown', init());
 
-function init(oneKeyDownHandler()) {
+function init(e) {
   // Write your JavaScript code inside the init() function
    const key = parseInt(e.detal || e.which);
+}
 
-  function onKeyDownHandler(e) {
+  function onKeyDownHandler(init) {
    if (key === code[index]) {
      index++;
 
@@ -26,3 +27,5 @@ function init(oneKeyDownHandler()) {
         }
   }
 }
+
+
