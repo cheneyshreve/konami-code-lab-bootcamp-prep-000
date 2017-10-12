@@ -21,6 +21,7 @@ function init(e) {
      index = 0;
    }
  } else {
+  return
   index = 0;
         }
   }
