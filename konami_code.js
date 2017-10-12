@@ -9,8 +9,8 @@ function init(e) {
   // Write your JavaScript code inside the init() function
    const key = parseInt(e.detal || e.which);
 }
-
-  function onKeyDownHandler(init) {
+ // are we supposed to try to use a callback function or put everything in init?
+  function onKeyDownHandler(???) {
    if (key === code[index]) {
      index++;
 
