@@ -6,7 +6,7 @@ const body = document.getElementsByTagName("body");
 body.addEventListener('keydown', function (init) {
   // Write your JavaScript code inside the init() function
    const key = parseInt(e.detal || e.which);
-   
+
   function onKeyDownHandler(e) {
    if (key === code[index]) {
      index++;
@@ -21,4 +21,4 @@ body.addEventListener('keydown', function (init) {
   index = 0;
         }
   }
-}  
+}
