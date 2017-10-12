@@ -26,4 +26,4 @@ function init(e) {
         }
   }
 }
-init(e);
+init();
