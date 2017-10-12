@@ -15,6 +15,7 @@ function init(e) {
 
     if (index === code.length)
     {
+    return
      alert("Congratulations!");
 
      index = 0;
